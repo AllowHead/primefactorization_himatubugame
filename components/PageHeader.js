@@ -21,7 +21,7 @@ const PageHeader = (props) => {
             <Popover.Body>
                 <p className={styles.inText}>3〜499のランダムに選ばれた素数を複数個組み合わせた合成数が問題として出題されます。問題の約数となる素数を見つけ出し、回答入力欄に入力して送信しましょう。</p>
                 <p className={styles.inText}>解けたところで何か報酬があるわけでもないので、暇つぶし程度に遊んでいってください。素因数分解を行ってくれるウェブサイトを使えば一瞬で答えが分かりますが、風情が無いので出来れば自力で頑張るようお願いします。</p>
-                <p className={styles.inText}>なおこのインフォは"あそびかた"のところをもう一回クリックすると消せます。</p>
+                <p className={styles.inText}>なおこのインフォはあそびかたのところをもう一回クリックすると消せます。</p>
             </Popover.Body>
         </Popover>
     );
@@ -38,7 +38,7 @@ const PageHeader = (props) => {
                     <p className={styles.inText}>このサイトはnext.jsとsocket.ioの学習のために、@allowerosがテストで作ったものです。なのでバグが存在したり、あるいは何らかのエラーによってある日突然アクセスできなくなったり、といった不具合が発生する可能性があります。</p>
                     <p className={styles.inText}>もし質問がございましたり、不具合が発生したりしましたら、製作者のTwitterまでご連絡ください。絶対に対応しますと約束はできませんが、対応可能な範囲であれば対応します。</p>
                     <Mention username='alloweros' options={{ lang: browserLanguage }} />
-                    <p className={styles.inText}>なおこのインフォは"このサイトについて"のところをもう一回クリックすると消せます。</p>
+                    <p className={styles.inText}>なおこのインフォはこのサイトについてのところをもう一回クリックすると消せます。</p>
                 </div>
             </Popover.Body>
         </Popover>

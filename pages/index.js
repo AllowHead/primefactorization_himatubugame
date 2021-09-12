@@ -4,10 +4,11 @@ import { Alert, Button, Card } from 'react-bootstrap';
 import { io } from 'socket.io-client';
 import PageHeader from '../components/PageHeader';
 import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 const socket = io();
 
-export default function index() {
+export default function Index() {
 
     const [questionS, setQuestionS] = useState('NaN');
     const [answerS, setAnswerS] = useState([]);
@@ -136,6 +137,9 @@ export default function index() {
 
     return (
         <div>
+            <Head>
+                <title>素数</title>
+            </Head>
             <PageHeader />
             <div className={styles.wrapper}>
                 <h2>問題</h2>
