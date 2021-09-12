@@ -89,7 +89,7 @@ app.prepare().then(() => {
         return handle(req, res)
     })
 
-    const httpServer = server.listen(3000, (err) => {
+    const httpServer = server.listen(port, (err) => {
         if (err) throw err
         console.log(`> ローカルホスト、ポート${port}番にサーバーを作成しました - env ${process.env.NODE_ENV}`)
     })
